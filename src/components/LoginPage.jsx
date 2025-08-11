@@ -59,7 +59,6 @@ const LoginPage = () => {
         localStorage.setItem('username', values.username);
         
         console.log('Login successful for user:', values.username);
-        console.log('Token stored:', token);
         
         navigate('/dashboard');
       } else if (response.status === 400 || response.status === 401) {
