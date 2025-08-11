@@ -26,9 +26,11 @@ const Header = ({ onMenuToggle, isMenuOpen }) => {
             Login
           </button>
           </Link>
+          <Link to="/signup">
           <button  className="text-terracotta-700 hover:text-white hover:bg-terracotta-500 border border-terracotta-500 font-semibold py-2 px-5 rounded-full transition-all duration-300">
             Sign Up
           </button>
+          </Link>
         </nav>
 
         <div className="md:hidden">

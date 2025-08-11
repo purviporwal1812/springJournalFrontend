@@ -100,7 +100,7 @@ const SignupPage = () => {
     };
 
     const handleGoogleSignup = () => {
-        const redirectUri = encodeURIComponent(`${window.location.origin}/auth/google/callback`);
+        const redirectUri = encodeURIComponent(`https://spring-journal-web-app.vercel.app/auth/google/callback`);
         const scope = encodeURIComponent('openid email profile');
         const googleAuthUrl = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scope}&response_type=code&access_type=offline`;
         window.location.href = googleAuthUrl;
