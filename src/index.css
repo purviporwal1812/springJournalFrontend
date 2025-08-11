@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #FDFCFB;
+  --color-teal-100: #E0F2F1;
+  --color-teal-300: #80CBC4;
+  --color-teal-400: #4DB6AC;
+  --color-teal-600: #00897B;
+  --color-terracotta-500: #E57373;
+  --color-terracotta-600: #E53935;
+  --color-terracotta-700: #D32F2F;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-cream);
+}
+
+html {
+  scroll-behavior: smooth;
+}
